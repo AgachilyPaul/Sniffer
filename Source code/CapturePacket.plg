@@ -1,0 +1,41 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: CapturePacket - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x804 /fo"Release/CapturePacket.res" /d "NDEBUG" /d "_AFXDLL" "E:\网络协议开发项目\网络嗅控器项目\刘冰_200728017029258_实验一\源代码文件\CapturePacket.rc"" 
+Creating temporary file "C:\DOCUME~1\ADMINI~1.GUC\LOCALS~1\Temp\RSP54.tmp" with contents
+[
+wpcap.lib /nologo /subsystem:windows /incremental:no /pdb:"Release/CapturePacket.pdb" /machine:I386 /out:"Release/CapturePacket.exe" 
+".\Release\AdapaterSelection.obj"
+".\Release\ARPPacket.obj"
+".\Release\CapturePacket.obj"
+".\Release\CapturePacketDlg.obj"
+".\Release\DirDialog.obj"
+".\Release\FramePacket.obj"
+".\Release\ICMPPacket.obj"
+".\Release\IPPacket.obj"
+".\Release\OutputDataDlg.obj"
+".\Release\RARPPacket.obj"
+".\Release\StdAfx.obj"
+".\Release\TCPPacket.obj"
+".\Release\UDPPacket.obj"
+".\Release\CapturePacket.res"
+".\Release\TestDlg.obj"
+".\Release\FilterDl.obj"
+]
+Creating command line "link.exe @C:\DOCUME~1\ADMINI~1.GUC\LOCALS~1\Temp\RSP54.tmp"
+<h3>Output Window</h3>
+Compiling resources...
+Linking...
+
+
+
+<h3>Results</h3>
+CapturePacket.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>
