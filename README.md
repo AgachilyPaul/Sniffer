@@ -1,1 +1,5 @@
 # Sniffer
+## The Experiment Purpose 
+This experiment realizes a small network packet catcher by studying the use of library functions commonly used in Winpcap, and presents the current network operation status by analyzing the original packet.
+## The Experiment Design
+In the design process, the system is divided into three levels according to the MVC design pattern. The first layer is the Control layer, namely the Control layer. To simplify the design, the Control layer is divided into two parts, one for network message input and the other for user input. The second layer is the Model layer; The third layer is the View layer, which is the display layer. The overall operation process of the system is as follows: get data from the Control layer, submit it to the Model layer for processing, and submit the processed results to the View layer for display. The Control layer is mainly used to capture network packets and obtain user input. Model layer is mainly used to analyze data packets and process user input. The View layer is mainly used to display the processed results.
